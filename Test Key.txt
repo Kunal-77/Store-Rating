@@ -1,0 +1,76 @@
+Test Key
+Name → Kunal Narkhede From Bhopal (≥20 chars)
+
+Email → kunal@example.com
+
+Address → Bhopal, India
+
+Password → Test@1234
+
+🔑 Test Data
+1️⃣ System Administrator (Admin)
+
+Signup Payload
+
+{
+  "name": "Administrator Demo User",
+  "email": "admin@test.com",
+  "address": "Admin Head Office Address",
+  "password": "Admin@1234",
+  "role": "ADMIN"
+}
+
+
+Login
+
+{
+  "email": "admin@test.com",
+  "password": "Admin@1234"
+}
+
+
+➡️ Should redirect to /admin.
+
+2️⃣ Store Owner
+
+Signup Payload
+
+{
+  "name": "Store Owner Demo User",
+  "email": "owner@test.com",
+  "address": "Pune Maharashtra",
+  "password": "Owner@1234",
+  "role": "OWNER"
+}
+
+
+Login
+
+{
+  "email": "owner@test.com",
+  "password": "Owner@1234"
+}
+
+
+➡️ Should redirect to /owner.
+
+3️⃣ Normal User
+
+Signup Payload
+
+{
+  "name": "Normal User Demo Account",
+  "email": "user@test.com",
+  "address": "Mumbai India",
+  "password": "User@1234",
+  "role": "USER"
+}
+
+
+Login
+
+{
+  "email": "user@test.com",
+  "password": "User@1234"
+}
+  
